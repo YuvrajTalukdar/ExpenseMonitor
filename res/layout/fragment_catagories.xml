@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton android:id="@+id/floatingActionButton" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x3301" android:layout_height="UNKNOWN_DATA_0x2f01" android:layout_marginBottom="56dp" android:src="0x108003e" android:layout_marginEnd="24dp" android:layout_constraintBottom_toBottomOf="0" android:layout_constraintEnd_toEndOf="0" />
+        <ListView android:id="@+id/listView" android:layout_width="UNKNOWN_DATA_0x17a01" android:layout_height="UNKNOWN_DATA_0x1e901" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" android:layout_constraintBottom_toBottomOf="0" android:layout_constraintEnd_toEndOf="0" android:layout_constraintHorizontal_bias="0.0" android:layout_constraintStart_toStartOf="0" android:layout_constraintTop_toTopOf="0" android:layout_constraintVertical_bias="1.0" />
+        <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="UNKNOWN_DATA_0x18001" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="@string/admob_app_id" android:layout_constraintBottom_toBottomOf="0" android:layout_constraintEnd_toEndOf="0" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
